@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Jessica Mo</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="form-container">
+      <h1 class="title">2 Trues, and 1 Lie</h1>
+      <div class="form-introText">
+        Below there are 3 statements from Jessica, select the one you think is the
+        false!
+      </div>
+
+      <form class="form-info" action="">
+        <button
+          type="button"
+          onclick="checkAnswer('Correct')"
+          class="statements"
+          id="statementOne"
+        >
+          <b>Statement One:</b> She is allergic to peanuts!
+        </button>
+        <button
+          type="button"
+          onclick="checkAnswer('Wrong')"
+          class="statements"
+          id="statementTwo"
+        >
+          <b>Statement Two:</b> 2024 marks her 13 years in the Netherlands!
+        </button>
+        <button
+          type="button"
+          onclick="checkAnswer('Wrong')"
+          class="statements"
+          id="statementThree"
+        >
+          <b>Statement Three:</b> She is planning to go to Dolomite for hikes soon!
+        </button>
+      </form>
+    </div>
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
