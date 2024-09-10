@@ -1,0 +1,32 @@
+div {
+    background-color: #ffe6e9;
+    color: #ffbe79;
+    font-size: xx-large;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 50px;
+}
+
+
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  
+}
+.hover-container {
+    cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1021.cur), default;
+  }
+
+
+#fixedContainer {
+    position: fixed;
+    width: 600px;
+    height: 200px;
+    left: 50%;
+    top: 0%;
+    margin-left: -300px; 
+  }
